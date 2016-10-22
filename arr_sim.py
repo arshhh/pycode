@@ -1,6 +1,7 @@
 a=[1,2,3,4]
 i=-1
 k=0
+print 'print loop in reverse'
 def something (i,k):
   	
 	print a[i]
