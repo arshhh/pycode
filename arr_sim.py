@@ -1,13 +1,13 @@
 a=[1,2,3,4]
-i=-1
+p=-1
 k=0
 print 'print loop in reverse'
-def something (i,k):
+def something (p,k):
   	
-	print a[i]
+	print a[p]
 	k=k+1	
 	if  k!=4	:
-		something ( i-1, k )
+		something ( p-1, k )
 	else :
 		return 0;
 
