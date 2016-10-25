@@ -8,4 +8,4 @@ def factorial(n) :
 	else :
 		print c
 		return 0
-factorial(num)
+factorial(abs(num))
