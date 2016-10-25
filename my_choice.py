@@ -1,12 +1,11 @@
-a=10
-def hello (n,c) :
+num=10
+c=1
+def factorial(n) :
 	if n!=0   :
+		global c
 		c=c*n
-		hello ( n-1,c )
+		factorial(n-1)
 	else :
 		print c
 		return 0
-
-
-
-hello (a,1)
+factorial(num)
